@@ -82,3 +82,19 @@ table tr:first-child td:first-child {
 .winner .neon-orange {
   font-size: 200px;
 }
+
+@media screen and (max-width:480px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+  .neon-orange{
+    font-size: 50px;
+  }
+  .neon-blue{
+    font-size: 50px;
+  }
+
+  .winner .neon-blue,
+  .winner .neon-orange {
+    font-size: 70px;
+  }
+
+}
